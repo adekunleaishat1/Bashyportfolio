@@ -46,16 +46,16 @@ const LandingPgae = () => {
      <Navbar/>
      </div> */}
         <div data-aos="fade-up" data-aos-duration="1000" className=" mx-auto text-center ">
-          <h1 className="bg-clip-text text-transparent bg-gradient-to-l from-[#c084fc] to-[#db2777] text-[50px] md:text-[70px] font-bold ">Hello ,I'm</h1>
-          <h1 className="text-[#fff] text-[50px] md:text-[70px] font-bold uppercase">
+          <h1 className="bg-clip-text text-transparent bg-gradient-to-l from-[#c084fc] to-[#db2777] text-[50px] md:text-[70px] font-bold ">Hello, I'm</h1>
+          <h1 className="text-[#fff] text-[30px] md:text-[50px] lg:text-[70px] font-bold uppercase">
           <ReactTyped 
-          className=" text-white text-[50px] md:text-[70px] font-bold uppercase"
+          className=" text-white text-[30px]   md:text-[50px] lg:text-[70px] font-bold uppercase"
       strings={[
         "Basirat Boyejo",
         "Data Analyst",
       ]}
       typeSpeed={40}
-      backSpeed={50}
+      backSpeed={100}
       loop>
     </ReactTyped>
             
@@ -75,7 +75,7 @@ const LandingPgae = () => {
             <h2 className="text-white mt-4 text-[40px] font-semibold">My Skills</h2>
             <aside className="rounded-md h-[4px] bg-gradient-to-l from-[#c084fc] to-[#db2777]  w-[200px]"></aside>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:px-6 md:px-12 lg:px-0 mt-10 ">
-              <div className="bg-[#1e1e1f] border-[#383838] border-2 px-8 py-10 rounded-md">
+              <div className="bg-[#1e1e1f] border-[#383838] border-2 px-10 py-10 rounded-xl">
                 <img
                   className="w-[80px] h-auto max-w-[100%]"
                   src={powerbi}
@@ -102,7 +102,7 @@ const LandingPgae = () => {
 
                 </div>
               </div>
-              <div className="bg-[#1e1e1f] border-[#383838] border-2 px-8 py-10 rounded-md">
+              <div className="bg-[#1e1e1f] border-[#383838] border-2 px-10 py-10 rounded-xl">
                 <img
                   className="w-[80px] h-auto max-w-[100%]"
                   src={excel}
@@ -126,7 +126,7 @@ const LandingPgae = () => {
                   </ul>
                 </div>
               </div>
-              <div className="bg-[#1e1e1f] border-[#383838] border-2 px-6 py-10 rounded-md">
+              <div className="bg-[#1e1e1f] border-[#383838] border-2 px-10 py-10 rounded-xl">
                 <img
                   className="w-[80px] h-auto max-w-[100%]"
                   src={powerbi}
@@ -142,7 +142,7 @@ const LandingPgae = () => {
                   </ul> 
                 </div>
               </div>
-              <div className="bg-[#1e1e1f] border-[#383838] border-2 px-6 py-10 rounded-md">
+              <div className="bg-[#1e1e1f] border-[#383838] border-2 px-10 py-10 rounded-xl">
                 <img
                   className="w-[80px] h-auto max-w-[100%]"
                   src={tableau}
@@ -159,7 +159,7 @@ const LandingPgae = () => {
                   </ul> 
                 </div>
               </div>
-              <div className="bg-[#1e1e1f] border-[#383838] border-2 px-6 py-10 rounded-md">
+              <div className="bg-[#1e1e1f] border-[#383838] border-2 px-10 py-10 rounded-xl">
                 <img
                   className="w-[80px] h-auto max-w-[100%]"
                   src={python}
@@ -183,10 +183,10 @@ const LandingPgae = () => {
       <div id="project" className="py-10 px-12 bg-[#121212] ">
          <div className="mx-auto max-w-[1400px] h-auto">
             <h2 className="text-white mt-4 text-[40px] font-semibold">My Projects</h2>
-            <aside className="rounded-md h-[4px] bg-gradient-to-l from-[#c084fc] to-[#db2777]  w-[200px]"></aside>
+            <aside className="rounded-xl h-[4px] bg-gradient-to-l from-[#c084fc] to-[#db2777]  w-[200px]"></aside>
               <div className="mt-6 py-4  mx-auto max-w-[1300px] px-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-               <div className="w-full   px-3 py-4 ">
-                  <div className="w-[500px] h-[300px]">
+               <div className="w-full px-0  md:px-3 py-4 ">
+                  <div className="w-auto md:w-[500px] h-[300px]">
                   <img className="w-full h-full" src={mavenmarket} alt="" />
                   </div>
                   <div className="mt-3 ">
@@ -206,8 +206,8 @@ const LandingPgae = () => {
                 </div>
                   </div>
                 </div>
-                <div className="w-full   px-3 py-4 rounded-md">
-                  <div className="w-[500px] h-[300px]">
+                <div className="w-full px-0   md:px-3 py-4 rounded-md">
+                  <div className="w-auto md:w-[500px] h-[300px]">
                   <img className="w-full h-full" src={superstore} alt="" />
                   </div>
                   <div className="mt-3 ">
@@ -226,8 +226,8 @@ const LandingPgae = () => {
                 </div>
                   </div>
                 </div>
-                <div className="w-full  px-3 py-4 mt-3">
-                  <div className="w-[500px]  h-[300px]">
+                <div className="w-full px-0  md:px-3 py-4 mt-3">
+                  <div className="w-auto md:w-[500px]  h-[300px]">
                   <img className="w-full h-full" src={callcenter} alt="" />
                   </div>
                   <div className="mt-3 ">
@@ -247,8 +247,8 @@ const LandingPgae = () => {
                 </div>
                   </div>
                 </div>
-                <div className="w-full  px-3 py-4 rounded-md mt-3">
-                  <div className="w-[500px] h-[300px]">
+                <div className="w-full px-0  md:px-3 py-4 rounded-md mt-3">
+                  <div className="w-auto md:w-[500px] h-[300px]">
                   <img className="w-full h-full" src={museum} alt="" />
                   </div>
                   <div className="mt-3 ">
@@ -268,8 +268,8 @@ const LandingPgae = () => {
                 </div>
                   </div>
                 </div>
-                <div className="w-full  px-3 py-4 rounded-md mt-3">
-                  <div className="w-[500px] h-[300px]">
+                <div className="w-full px-0  md:px-3 py-4 rounded-md mt-3">
+                  <div className="w-auto md:w-[500px] h-[300px]">
                   <img className="w-full h-full" src={salary} alt="" />
                   </div>
                   <div className="mt-3 ">
@@ -311,13 +311,13 @@ const LandingPgae = () => {
           </div>
       </div> */}
       <div className="bg-[#000] py-10 px-4" id="footer">
-        <div className="w-[50%] mx-auto py-4"> 
+        <div className="w-full md:w-[50%] mx-auto py-4"> 
         <h1 className="text-center text-white font-semibold text-[32px]">Let's work together</h1>
         <p className="text-center text-[#FFFFFF80] text-[16px] font-medium leading-5 mb-3">I'd love to learn more about your project and how I can assist you. Feel free to share your project details using the form below.
            If you prefer to email instead, you can reach out to me at </p>
            <a className="text-white" href="http://" target="_blank" rel="noopener noreferrer"></a>
         </div>
-           <form  className="w-[50%] mx-auto mt-6" action="" method="post">
+           <form  className="w-full md:w-[50%] mx-auto mt-6" action="" method="post">
            <div className="grid grid-cols-2 gap-4 mb-6">
            <input name="name" className="border-none bg-[#101010] rounded-lg py-4 px-4 outline-none text-white text-[16px] font-medium" type="text" placeholder="Name" />
            <input name="email" className="border-none bg-[#101010] rounded-lg py-4 px-4 outline-none  text-white text-[16px] font-medium" type="text" placeholder="Email" />
