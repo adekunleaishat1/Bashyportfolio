@@ -181,17 +181,17 @@ const LandingPgae = () => {
         </div>
       </div>
       <div id="project" className="py-10 px-12 bg-[#121212] ">
-         <div className="mx-auto max-w-[1400px] h-auto">
+         <div className="mx-auto max-w-[1200px] h-auto">
             <h2 className="text-white mt-4 text-[40px] font-semibold">My Projects</h2>
-            <aside className="rounded-xl h-[4px] bg-gradient-to-l from-[#c084fc] to-[#db2777]  w-[200px]"></aside>
-              <div className="mt-6 py-4  mx-auto max-w-[1300px] px-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-               <div className="w-full px-0  md:px-3 py-4 ">
-                  <div className="w-auto md:w-[500px] h-[300px]">
+            <aside className="rounded-xl h-[4px] bg-gradient-to-l from-[#c084fc] to-[#db2777]  w-[250px]"></aside>
+              <div className="mt-6 py-4  mx-auto max-w-[1300px] px-0 md:px-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+               <div className="w-full px-0 md:px-3 py-4 ">
+                  <div className="w-auto md:w-[500px] h-[300px] mb-8">
                   <img className="w-full h-full" src={mavenmarket} alt="" />
                   </div>
-                  <div className="mt-3 ">
-                    <h1 className="text-xl font-bold text-[#fff]"> Maven Market Dashboard</h1>
-                    <p className="text-[16px] text-[#fff] mt-3">Insights into Sales, Orders, and Customer Performance
+                  <div className="">
+                    <h1 className="text-xl font-bold text-[#fff] mb-5"> Maven Market Dashboard</h1>
+                    <p className="text-[16px] text-[#fff] mb-5">Insights into Sales, Orders, and Customer Performance
                     This interactive dashboard provides decision-makers with a comprehensive overview of Maven Market's key
                     performance metrics and trends. It offers a detailed yet intuitive visualization of revenue, profit,
                     transactions, and returns, segmented by product categories, customer demographics, and regions.</p>
@@ -207,12 +207,12 @@ const LandingPgae = () => {
                   </div>
                 </div>
                 <div className="w-full px-0   md:px-3 py-4 rounded-md">
-                  <div className="w-auto md:w-[500px] h-[300px]">
+                  <div className="w-auto md:w-[500px] h-[300px] mb-8">
                   <img className="w-full h-full" src={superstore} alt="" />
                   </div>
-                  <div className="mt-3 ">
-                    <h1 className="text-xl font-bold text-[#fff]">Superstore Dashboard</h1>
-                    <p className="text-[16px] text-[#fff] mt-3">Comprehensive Insights into Sales and Profit Performance
+                  <div className="">
+                    <h1 className="text-xl font-bold text-[#fff] mb-5">Superstore Dashboard</h1>
+                    <p className="text-[16px] text-[#fff]  mb-5">Comprehensive Insights into Sales and Profit Performance
                     This interactive dashboard provides decision-makers with a detailed analysis of the Superstore’s operations, focusing on sales performance, profitability, and key business drivers. 
                     It combines high-level metrics with granular insights to enable data-driven strategies for growth and optimization.</p>
                  <div className="relative w-[180px] h-[40px] px-1 py-1 rounded-md bg-gradient-to-l mt-4 from-[#c084fc] to-[#db2777]">
@@ -227,12 +227,12 @@ const LandingPgae = () => {
                   </div>
                 </div>
                 <div className="w-full px-0  md:px-3 py-4 mt-3">
-                  <div className="w-auto md:w-[500px]  h-[300px]">
+                  <div className="w-auto md:w-[500px]  h-[300px] mb-8">
                   <img className="w-full h-full" src={callcenter} alt="" />
                   </div>
-                  <div className="mt-3 ">
-                    <h1 className="text-xl font-bold text-[#fff]">Call Center Performance Dashboard</h1>
-                    <p className="text-[16px] text-[#fff] mt-3">
+                  <div className="">
+                    <h1 className="text-xl font-bold text-[#fff] mb-5">Call Center Performance Dashboard</h1>
+                    <p className="text-[16px] text-[#fff]  mb-5">
                     This dashboard provides a comprehensive overview of key call center metrics, including call volume, resolution rates, 
                     agent performance, and customer satisfaction. It empowers decision-makers to identify trends, optimize operations, 
                     and improve overall customer experience.</p>
@@ -248,12 +248,12 @@ const LandingPgae = () => {
                   </div>
                 </div>
                 <div className="w-full px-0  md:px-3 py-4 rounded-md mt-3">
-                  <div className="w-auto md:w-[500px] h-[300px]">
+                  <div className="w-auto md:w-[500px] h-[300px] mb-8">
                   <img className="w-full h-full" src={museum} alt="" />
                   </div>
-                  <div className="mt-3 ">
-                    <h1 className="text-xl font-bold text-[#fff]">Museum Data set</h1>
-                    <p className="text-[16px] text-[#fff] mt-3">
+                  <div className="">
+                    <h1 className="text-xl font-bold text-[#fff] mb-5">Museum Data set</h1>
+                    <p className="text-[16px] text-[#fff] mb-5">
                     This project analyzes the Mesum dataset to uncover meaningful insights about museums,
                      artists, paintings, and their attributes. Using SQL queries, we answer critical questions related to museum operations,
                       artwork pricing, artist popularity, and more.</p>
@@ -269,12 +269,12 @@ const LandingPgae = () => {
                   </div>
                 </div>
                 <div className="w-full px-0  md:px-3 py-4 rounded-md mt-3">
-                  <div className="w-auto md:w-[500px] h-[300px]">
+                  <div className="w-auto md:w-[500px] h-[300px] mb-8">
                   <img className="w-full h-full" src={salary} alt="" />
                   </div>
-                  <div className="mt-3 ">
-                    <h1 className="text-xl font-bold text-[#fff]"> Employee Salary Analysis</h1>
-                    <p className="text-[16px] text-[#fff] mt-3">
+                  <div className="">
+                    <h1 className="text-xl font-bold text-[#fff] mb-5"> Employee Salary Analysis</h1>
+                    <p className="text-[16px] text-[#fff] mb-5">
                     This project delves into the analysis of employee salary data. Leveraging Python's powerful data science libraries, NumPy, Pandas, and Matplotlib,
                      we explored the dataset to uncover insights into salary distribution, departmental variations, and correlations with other factors.
                               </p>
@@ -310,14 +310,14 @@ const LandingPgae = () => {
           </div>
           </div>
       </div> */}
-      <div className="bg-[#000] py-10 px-4" id="footer">
+      <div className="bg-[#000] py-10 px-0 md:px-4" id="footer">
         <div className="w-full md:w-[50%] mx-auto py-4"> 
         <h1 className="text-center text-white font-semibold text-[32px]">Let's work together</h1>
         <p className="text-center text-[#FFFFFF80] text-[16px] font-medium leading-5 mb-3">I'd love to learn more about your project and how I can assist you. Feel free to share your project details using the form below.
            If you prefer to email instead, you can reach out to me at </p>
            <a className="text-white" href="http://" target="_blank" rel="noopener noreferrer"></a>
         </div>
-           <form  className="w-full md:w-[50%] mx-auto mt-6" action="" method="post">
+           <form  className="w-full px-3 md:px-0 md:w-[50%] mx-auto mt-6" action="" method="post">
            <div className="grid grid-cols-2 gap-4 mb-6">
            <input name="name" className="border-none bg-[#101010] rounded-lg py-4 px-4 outline-none text-white text-[16px] font-medium" type="text" placeholder="Name" />
            <input name="email" className="border-none bg-[#101010] rounded-lg py-4 px-4 outline-none  text-white text-[16px] font-medium" type="text" placeholder="Email" />
