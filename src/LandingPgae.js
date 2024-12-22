@@ -184,7 +184,7 @@ const LandingPgae = () => {
          <div className="mx-auto max-w-[1400px] h-auto">
             <h2 className="text-white mt-4 text-[40px] font-semibold">My Projects</h2>
             <aside className="rounded-md h-[4px] bg-gradient-to-l from-[#c084fc] to-[#db2777]  w-[200px]"></aside>
-              <div className="mt-6 py-4  mx-auto max-w-[1300px] px-6 grid grid-cols-2 gap-6">
+              <div className="mt-6 py-4  mx-auto max-w-[1300px] px-6 grid grid-cols-1 md:grid-cols-2 gap-6">
                <div className="w-full   px-3 py-4 ">
                   <div className="w-[500px] h-[300px]">
                   <img className="w-full h-full" src={mavenmarket} alt="" />
