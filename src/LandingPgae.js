@@ -83,7 +83,7 @@ const LandingPgae = () => {
                 />
                 <div className="mt-4">
                   <h3 className="text-[#fff] text-xl font-bold ">Power Bi</h3>
-                  <ul className="text-[#fff] text-xs mt-3 list-disc">
+                  <ul className="text-[#fff] text-sm mt-3 list-disc">
                     <li className="p-1">  As a skilled data analyst, I'm proficient in creating robust
                     data models, cleaning and transforming raw data, and
                     leveraging DAX to perform complex calculations.This ensures
@@ -110,7 +110,7 @@ const LandingPgae = () => {
                 />
                 <div className="mt-4">
                   <h3 className="text-[#fff] text-xl font-bold ">Excel</h3>
-                  <ul className="text-[#fff] text-xs mt-3  list-disc">
+                  <ul className="text-[#fff] text-sm mt-3  list-disc">
                     <li className="p-1">   As a skilled data analyst, I leverage Excel's powerful tools to extract meaningful insights.</li>
                     <li className="p-1"> I proficiently use pivot tables and charts to summarize and visualize data, apply advanced formulas
                        like VLOOKUP and INDEX-MATCH for complex calculations, 
@@ -134,7 +134,7 @@ const LandingPgae = () => {
                 />
                 <div className="mt-4">
                   <h3 className="text-[#fff] text-xl font-bold ">SQL </h3>
-                  <ul className="text-[#fff] text-xs mt-3  list-disc">
+                  <ul className="text-[#fff] text-sm mt-3  list-disc">
                     <li className="p-1">   Skilled in writing complex SQL queries to extract, transform, and analyze data efficiently.</li>
                     <li className="p-1"> Experienced in designing efficient database schemas and implementing indexing strategies to optimize query performance.</li>
                     <li className="p-1">Proficient in cleaning and transforming raw data to ensure data quality and consistency.</li>
@@ -150,7 +150,7 @@ const LandingPgae = () => {
                 />
                 <div className="mt-4">
                   <h3 className="text-[#fff] text-xl font-bold ">Tableau</h3>
-                  <ul className="text-[#fff] text-xs mt-3  list-disc">
+                  <ul className="text-[#fff] text-sm mt-3  list-disc">
                     <li className="p-1">  I leverage the power of Tableau to create dynamic and interactive dashboards that drive informed decision-making.</li>
                     <li className="p-1"> I am experienced in:
                     Creating compelling visualizations that effectively communicate complex data insights.</li>
@@ -167,7 +167,7 @@ const LandingPgae = () => {
                 />
                 <div className="mt-4">
                   <h3 className="text-[#fff] text-xl font-bold ">Python</h3>
-                  <ul className="text-[#fff] text-xs mt-3  list-disc">
+                  <ul className="text-[#fff] text-sm mt-3  list-disc">
                     <li className="p-1">  Proficient in cleaning and transforming raw data, handling missing values, outliers, and inconsistencies..</li>
                     <li className="p-1">Skilled in conducting in-depth EDA to understand data distributions, identify outliers, and uncover hidden patterns.</li>
                     <li className="p-1"> Experienced in creating informative and visually appealing data visualizations using libraries like Matplotlib and Seaborn.</li>
@@ -333,7 +333,7 @@ const LandingPgae = () => {
           <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsCSpGBbMkLlJJWjvpGqHKCZtCzDnKwtxVLJljzWDsNgzfjMrlQRSfgVkDzfrkpZwWwMhPRG" target="_blank" rel="noopener noreferrer"> <p className="text-[#FFFFFF80] text-[18px] font-medium leading-5  items-center">Designed by Dev_yeesha</p></a>
           <div className="flex justify-content-center items-between gap-12 mx-auto ">
           <a className="text-[#FFFFFF80] text-[20px] font-medium" href="http://" target="_blank" rel="noopener noreferrer"><BsTwitterX /></a>
-           <a className="text-[#FFFFFF80] text-[20px] font-medium" href="https://" target="_blank" rel="noopener noreferrer"><SiInstagram /></a>
+           <a className="text-[#FFFFFF80] text-[20px] font-medium" href="https://www.instagram.com/timisexy1/profilecard/?igsh=MWZ3dWFoNHMwb2hsdQ" target="_blank" rel="noopener noreferrer"><SiInstagram /></a>
            <a className="text-[#FFFFFF80] text-[20px] font-medium" href="https://www.linkedin.com/in/boyejo-basirat-9446b0236" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
            <a className="text-[#FFFFFF80] text-[20px] font-medium" href="https://github.com/Timileyin1298" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
           </div>
