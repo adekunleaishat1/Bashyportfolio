@@ -1,4 +1,5 @@
 import React ,{useEffect}from "react";
+import Sendmail from "./Sendmail";
 import tableau from "./Images/WhatsApp Image 2024-12-05 at 20.14.31_9aafe0a6.jpg";
 import powerbi from "./Images/WhatsApp Image powerbi.jpg"
 import python from "./Images/WhatsApp Image python.jpg"
@@ -317,16 +318,7 @@ const LandingPgae = () => {
            If you prefer to email instead, you can reach out to me at </p>
            <a className="text-white" href="http://" target="_blank" rel="noopener noreferrer"></a>
         </div>
-           <form  className="w-full  md:w-[50%] mx-auto mt-6" action="" method="post">
-           <div className="grid grid-cols-2 gap-4 mb-6">
-           <input name="name" className="border-none bg-[#101010] rounded-lg py-4 px-4 outline-none text-white text-[16px] font-medium" type="text" placeholder="Name" />
-           <input name="email" className="border-none bg-[#101010] rounded-lg py-4 px-4 outline-none  text-white text-[16px] font-medium" type="text" placeholder="Email" />
-           </div>
-            <textarea name="message" className="border-none bg-[#101010] rounded-lg py-4 px-4 w-full outline-none  text-white text-[16px] font-medium" name="" id="" cols="30" rows="10" placeholder="Tell me more about your project">
-
-            </textarea>
-            <button className="w-full py-3 px-6 rounded-md border-none text-[16px] font-medium text-white bg-gradient-to-l mt-4 from-[#c084fc] to-[#db2777]">Send</button>
-           </form>
+          <Sendmail/>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-10  items-center text-center  bg-[#000]">
           <p className="text-[#FFFFFF80] text-[18px] font-medium leading-5 "> © 2024.</p>
