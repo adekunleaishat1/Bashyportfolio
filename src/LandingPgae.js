@@ -53,7 +53,7 @@ const LandingPgae = () => {
           className=" text-white text-[35px]   sm:text-[50px] lg:text-[70px] font-bold uppercase"
       strings={[
         "Basirat Boyejo",
-        "Data Analyst",
+        "A Data Analyst",
       ]}
       typeSpeed={40}
       backSpeed={100}
